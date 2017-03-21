@@ -12,3 +12,5 @@ class Nacionalidad(models.Model):
 
     class Meta:
         verbose_name_plural = "nacionalidades"
+class Persona(models.Model):
+    nombre = models.CharField(max_length=50)
