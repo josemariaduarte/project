@@ -14,3 +14,6 @@ class Nacionalidad(models.Model):
         verbose_name_plural = "nacionalidades"
 class Persona(models.Model):
     nombre = models.CharField(max_length=50)
+
+class Animal(models.Model):
+    nombre = models.CharField(max_length=50)
